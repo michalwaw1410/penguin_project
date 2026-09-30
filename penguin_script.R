@@ -16,6 +16,7 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, colour =
   geom_point() + 
   stat_smooth(method = "lm") 
 
+x <- 1
 
 
 
