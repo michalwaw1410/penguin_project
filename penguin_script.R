@@ -20,7 +20,8 @@ x <- 1
 
 x <- 1:10
 Y <- 10:1
-ploty(y ~ x)
+plot(y ~ x)
+?plot
 
 
 ggsave("figs/1_flipper_bodymass_regression.png")  
