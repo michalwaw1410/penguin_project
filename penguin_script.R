@@ -18,7 +18,9 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, colour =
 
 x <- 1
 
-
+x <- 1:10
+Y <- 10:1
+ploty(y ~ x)
 
 
 ggsave("figs/1_flipper_bodymass_regression.png")  
